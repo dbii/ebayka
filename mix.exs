@@ -25,7 +25,7 @@ defmodule Ebayka.Mixfile do
       {:poison, ">= 2.0.0"},
       {:xml_builder, ">= 0.0.8"},
       {:sweet_xml, ">= 0.5.0"},
-      {:mock, "~> 0.2.0", only: :test},
+      {:mock, "~> 0.3.0", only: :test},
       {:ex_doc, "~> 0.14", only: :dev}]
   end
 
